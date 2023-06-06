@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "elephant-core"
-version = "0.1.0"
+version = "0.5.0"
 description = ""
 authors = ["Ko Sugawara <ko.sugawara@ens-lyon.fr>"]
 readme = "README.md"
 packages = [{include = "elephant", from = "src"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.8"
 torch = "^2.0.1"
 torchvision = "^0.15.2"
 tqdm = "^4.65.0"
